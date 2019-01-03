@@ -1,12 +1,11 @@
 import pytest
 
-from context import pysieves
-from pysieves import erastothenes_sieve
+from pyprime.sieves import sundaram_sieve
 
 
 def test_Throws_When_GivenNegativeNumber():
     with pytest.raises(ValueError):
-        erastothenes_sieve(-1)
+        list(sundaram_sieve(-1))
 
 
 # TODO: move to external file
@@ -17,6 +16,6 @@ def test_Throws_When_GivenNegativeNumber():
           3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]),
 ])
 def test_Correctly_Works(test_input: int, expected: [int]):
-    result = list(erastothenes_sieve(test_input))
+    result = list(sundaram_sieve(test_input))
 
     assert result == expected

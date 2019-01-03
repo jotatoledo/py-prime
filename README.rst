@@ -1,4 +1,4 @@
-pysieves
+pyprime
 ========
 
 .. image:: https://img.shields.io/pypi/v/pysieves.svg
@@ -26,7 +26,10 @@ Compatibility
 Licence
 -------
 
+Code is provided under the MIT license. 
+For further information see the `LICENSE file <LICENSE>`_
+
 Authors
 -------
 
-`pysieves` was written by `José Toledo Navarro <jotatoledon@gmail.com>`_.
+`pyprime` was written by `José Toledo Navarro <jotatoledon@gmail.com>`_.

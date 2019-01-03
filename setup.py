@@ -2,8 +2,7 @@ import io
 import os
 import re
 
-from setuptools import find_packages
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 def read(filename):
@@ -14,7 +13,7 @@ def read(filename):
 
 
 setup(
-    name="pysieves",
+    name="pyprime",
     version="0.1.0",
     url="https://github.com/jotatoledo/pysieves.git",
     license='MIT',
@@ -22,7 +21,7 @@ setup(
     author="José Toledo Navarro",
     author_email="jotatoledon@gmail.com",
 
-    description="Different sieve algorithms in python",
+    description="A collection of algorithms related to prime numbers",
     long_description=read("README.rst"),
 
     packages=find_packages(exclude=('tests',)),
