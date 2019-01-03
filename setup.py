@@ -22,7 +22,7 @@ setup(
     author="José Toledo Navarro",
     author_email="jotatoledon@gmail.com",
 
-    description="Different sieve algorithmes in python",
+    description="Different sieve algorithms in python",
     long_description=read("README.rst"),
 
     packages=find_packages(exclude=('tests',)),

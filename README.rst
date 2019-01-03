@@ -9,7 +9,7 @@ pysieves
    :target: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal
    :alt: Latest Travis CI build status
 
-Different sieve algorithmes in python
+Different sieve algorithms in python
 
 Usage
 -----

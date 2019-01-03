@@ -2,7 +2,7 @@ __OFFSET = 2
 
 
 def erastothenes_sieve(limit: int):
-    """Returnes a generator of prime numbers between [1,limit] (both boundaries inclusive)
+    """Returns a generator of prime numbers between [1,limit] (both boundaries inclusive)
 
     Keyword arguments:
     limit -- a positive upper boundary for the generator interval
